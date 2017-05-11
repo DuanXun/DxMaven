@@ -7,8 +7,8 @@
 
 1、project目录下的build.gradle
 
+
   allprojects {
-  
     repositories {
     
         jcenter()
@@ -18,16 +18,15 @@
             url "https://raw.github.com/DuanXun/DxMaven/snapshot/"
             
         }
-    }
+        
+    }   
  }
 
 
 2、module或者app目录下build.gradle
 
+
    dependencies {
-   
     ...
-    
     compile 'com.dx.rxjava_retrofit_http:rx_re_http:1.0.0-SNAPSHOT'
-    
    }
