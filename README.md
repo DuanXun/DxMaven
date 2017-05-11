@@ -1,8 +1,10 @@
 # DxMaven
 一个用于远程依赖的代码仓库
 
-#RxJava+Retrofit封装sdk
-在Androidstudio开发的项目中使用：
+# RxJava+Retrofit封装sdk
+
+在Androidstudio开发的项目中使用,具体封装代码的使用和源码可以访问我的 RxJava_Retrofit_http 开源项目。
+
 1、project目录下的build.gradle
   allprojects {
     repositories {
