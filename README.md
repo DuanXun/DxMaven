@@ -9,6 +9,7 @@
 
 
   allprojects {
+  
     repositories {
     
         jcenter()
@@ -20,6 +21,7 @@
         }
         
     }   
+    
  }
 
 
@@ -27,6 +29,9 @@
 
 
    dependencies {
+   
     ...
+    
     compile 'com.dx.rxjava_retrofit_http:rx_re_http:1.0.0-SNAPSHOT'
+    
    }
